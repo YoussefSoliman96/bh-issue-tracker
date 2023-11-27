@@ -37,6 +37,8 @@ This project is an online Issue Iracker that allows users to list and categorize
 - Recharts
 - Zid
 - PlanetScale DB
+- DataGrip
+- Postman
 
 ## Features:
 
@@ -48,13 +50,12 @@ This project is an online Issue Iracker that allows users to list and categorize
 - Mobile responsiveness
 - Google Authentication
 - REST API
-- Zod Validation 
+- Zod Validation
 
 ## Code Style:
 
 - Prettier
 - Pascal Case
-
 
 ## Setup:
 
@@ -62,36 +63,33 @@ This project is an online Issue Iracker that allows users to list and categorize
 2. Run `npm install` to install the required dependencies.
 3. Rename .env.example to .env
 4. Get Google API key at https://console.cloud.google.com/. You'll have to create an account first.
-4. Get Auth.js key at https://next-auth.js.org/configuration/options. You'll have to create an account first.
-5. Add the API keys to **.env**
-6. Run `npm run dev` to start the web server.
+5. Get Auth.js key at https://next-auth.js.org/configuration/options. You'll have to create an account first.
+6. Add the API keys to **.env**
+7. Run `npm run dev` to start the web server.
+8. Run `mysql -u root -p` to start MySql
 
 ## Screenshots:
 
 ### Homepage
 
-![Homepage](src/assets/Screenshots/Homepage.png)
+![Homepage](public/assests/homepage.png)
 
-### Game Details
+### Issue List
 
-![Game Details](<src/assets/Screenshots/Game details.png>)
+![Issue List](public/assests/issue-list.png)
 
-### Using filters
+### Issue Page
 
-![Filters](src/assets/Screenshots/Multiple-filters.png)
+![Issue Page](public/assests/issue-page.png)
 
-### Searching
+### Create Issue
 
-![Searching](src/assets/Screenshots/Searching.png)
+![Create Issue](public/assests/create-issue.png)
+
+### Delete Issue
+
+![Delete Issue](public/assests/delete-issue.png)
 
 ### Mobile View
 
-![Mobile](src/assets/Screenshots/Mobile.png)
-
-### Mobile Genre Filter
-
-![Mobile Genres](src/assets/Screenshots/Mobile-genre-filter.png)
-
-## Start MySql
-
-mysql -u root -p
+![Mobile View](public/assests/mobile-view.png)
