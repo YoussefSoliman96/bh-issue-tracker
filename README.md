@@ -1,37 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BugNest
 
-## Getting Started
+[Live Demo](https://bug-nest.vercel.app/)
 
-First, run the development server:
+Bug Nest is a web application that helps users keep track of bugs or issues they face while developing their projects.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Table of content:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Project Description](#project-description)
+- [Stack and Frameworks](#tech-stack)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Setup](#setup)
+- [Screenshots](#screenshots)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Description:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Overview:
 
-## Learn More
+This project is an online Issue Iracker that allows users to list and categorize their issues/bugs so they can keep track of their status, solve them or assign them to other users.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- Typescript
+- React
+- jQuery
+- HTML
+- CSS
+- Tailwind CSS
+- Radix UI
+- Git
+- VSCode
+- Axios API
+- Prisma
+- Auth.js
+- Recharts
+- Zid
+- PlanetScale DB
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Features:
 
-## Deploy on Vercel
+- Filtering
+- Sorting
+- Charts
+- Authentication
+- Authorization
+- Mobile responsiveness
+- Google Authentication
+- REST API
+- Zod Validation 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Code Style:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Prettier
+- Pascal Case
+
+
+## Setup:
+
+1. Clone this repository to your local machine.
+2. Run `npm install` to install the required dependencies.
+3. Rename .env.example to .env
+4. Get Google API key at https://console.cloud.google.com/. You'll have to create an account first.
+4. Get Auth.js key at https://next-auth.js.org/configuration/options. You'll have to create an account first.
+5. Add the API keys to **.env**
+6. Run `npm run dev` to start the web server.
+
+## Screenshots:
+
+### Homepage
+
+![Homepage](src/assets/Screenshots/Homepage.png)
+
+### Game Details
+
+![Game Details](<src/assets/Screenshots/Game details.png>)
+
+### Using filters
+
+![Filters](src/assets/Screenshots/Multiple-filters.png)
+
+### Searching
+
+![Searching](src/assets/Screenshots/Searching.png)
+
+### Mobile View
+
+![Mobile](src/assets/Screenshots/Mobile.png)
+
+### Mobile Genre Filter
+
+![Mobile Genres](src/assets/Screenshots/Mobile-genre-filter.png)
 
 ## Start MySql
 
