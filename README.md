@@ -25,8 +25,7 @@ This project is an online Issue Iracker that allows users to list and categorize
 - Typescript
 - React
 - jQuery
-- HTML
-- CSS
+- Node.js
 - Tailwind CSS
 - Radix UI
 - Git
@@ -35,7 +34,7 @@ This project is an online Issue Iracker that allows users to list and categorize
 - Prisma
 - Auth.js
 - Recharts
-- Zid
+- Zod
 - PlanetScale DB
 - DataGrip
 - Postman
