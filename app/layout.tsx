@@ -33,6 +33,7 @@ export default function RootLayout({
               </main>
             </Theme>
           </AuthProvider>
+          <SpeedInsights />
         </QueryClientProvider>
       </body>
     </html>
