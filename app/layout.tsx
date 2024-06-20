@@ -7,6 +7,7 @@ import { Container, Theme } from "@radix-ui/themes";
 import NavBar from "./NavBar";
 import AuthProvider from "./auth/Provider";
 import QueryClientProvider from "./QueryClientProvider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
